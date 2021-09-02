@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 31, 2021 at 03:47 PM
+-- Generation Time: Sep 02, 2021 at 10:33 AM
 -- Server version: 10.4.20-MariaDB
 -- PHP Version: 7.3.29
 
@@ -42,8 +42,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `name`, `address`, `mobile_number`, `user_type`, `password`, `created_at`) VALUES
+('Acc-000', 'Pasindu Melaka', 'Galle Kollek', 773158043, 'Accountant', '$2y$10$NlN2HI.qpL2mtLtpfQ5Cpe7X0BavLDogo6BRwyjTv1vFM6/vhxY02', '2021-09-02 11:11:42'),
 ('Admin-00', 'Sasindu', 'Math Galle Kollek', 768687025, 'Admin', '$2y$10$GLEs1JIzBvzUTEOYxkPT0uabC4unmvlQkeRO.Hj4DKsxP4kxXthvy', '0000-00-00 00:00:00'),
-('Agent-000', 'Pasindu', 'Mama Galle Kollek', 769372531, 'Agent', '$2y$10$xBgTdqoVVV0w0HynPW2Ga.5Yd36KGtap.8MFhH0fUIg0t0czeGg2S', '0000-00-00 00:00:00'),
+('Agent-000', 'Roneki', 'Mama Matara Kellek', 777816920, 'Agent', '$2y$10$DEoIysExgKU2NSRtgtnnc./gKPhb6QGVsDPCGrxd8LbRf7zu19T2G', '2021-09-02 11:16:00'),
 ('Land-000', 'kumud', 'Ariyawanshagama, Welipenna', 769372530, 'Supervisor', '$2y$10$SAALWgCmYwJb8WIBzExR9eh3RsiwsP93SKqGasVLseeiyOb4gZ3C.', '0000-00-00 00:00:00');
 
 --

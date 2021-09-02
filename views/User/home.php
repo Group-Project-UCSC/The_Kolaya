@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="<?php echo URL?>vendors/css/home/home-style.css">
+    <link rel="stylesheet" href="<?php echo URL?>vendors/css/home/home-queries.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a8f32993e8.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo TITLE?></title>
     <link rel = "icon" href = "<?php echo URL?>vendors/images/thekolaya2.png" type = "image/x-icon">
-    <link rel="stylesheet" href="<?php echo URL?>vendors/css/home/style.css">
-    <link rel="stylesheet" href="<?php echo URL?>vendors/css/home/queries.css">
+    <title><?php echo TITLE?></title>
 </head>
 <body>
 <header>
@@ -14,14 +16,14 @@
                 <img src="<?php echo URL?>vendors/images/thekolaya.png" class="logo">
                 <img src="<?php echo URL?>vendors/images/thekolaya.png" class="logo-black">
                 <div class="main-nav">
-                    <a href="<?php echo URL?>user/login">LOG IN</a>
+                    <a href="<?php echo URL?>login">LOG IN</a>
                 </div>
-                <!-- <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a> -->
+
             </div>
         </nav>
         <div class="hero-text-box">
             <h1>WELCOME TO<br><b>තේ කොළය.</b></h1>
-            <a class="btn btn-full js--scroll-to-plans" href="<?php echo URL?>user/registration">REGISTER NOW</a>
+            <a class="btn btn-full js--scroll-to-plans" href="<?php echo URL?>registration">REGISTER NOW</a>
         </div>
     </header>
     
@@ -37,6 +39,27 @@
             </p>
         </div> 
     </section>
-    <?php include 'views/bottomContainer.php';?>
+    <div class="bottom-container">
+        <ul>
+            <li>
+                <a href="#">PRIVACY POLICY</a>
+            </li>
+
+            <li>
+                <a href="#">ABOUT US</a>
+            </li>
+
+            <li>
+                <a href="#">CONTACT US</a>
+            </li>
+
+            <li class="social-icons">
+                <i class="fab fa-facebook" id="facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fab fa-twitter"></i>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>

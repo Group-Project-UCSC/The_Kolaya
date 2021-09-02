@@ -7,7 +7,7 @@ class User extends Controller {
     }
 
     function index() {
-        // $this->view->render('Login','Login');
+        $this->view->goHome('user/home');
     }
 
     public function registration() {
@@ -76,7 +76,7 @@ class User extends Controller {
                 $this->model->registration($data);
                 // flash('register_success', 'You are registed and can log in');
                 flash('register_success', 'You are registed and can log in');
-                redirect('user/login');
+                redirect('login');
 
             }else {
                 $this->view->render('user/registration', $data);
@@ -182,7 +182,7 @@ class User extends Controller {
           unset($_SESSION['user_name']);
 
           session_destroy();
-          redirect('user/login');
+          redirect('login');
       }
 
       public function isLoggedIn() {

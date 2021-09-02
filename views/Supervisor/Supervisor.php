@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <?php include 'views/topContainer.php';?>
-    <link rel="stylesheet" href="<?php echo URL?>vendors/css/supervisor/supervisor-style.css">
-    <link rel="stylesheet" href="<?php echo URL?>vendors/css/supervisor/supervisor-queries.css">
-</head>
-<body>
+<?php include 'views/topContainer.php';?>
     
     <div class="middle-container">
         <h1>GOOD SUPPERVISOR</h1>
@@ -32,7 +25,4 @@
         </div>
         <hr>
     </div>
-    <?php include 'views/bottomContainer.php';?>
-    <script src="<?php echo URL?>vendors/js/nav-bar.js"></script>
-</body>
-</html>
+<?php include 'views/bottomContainer.php';?>

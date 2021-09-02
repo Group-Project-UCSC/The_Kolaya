@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <?php include 'views/topContainer.php';?>
-    <link rel="stylesheet" href="<?php echo URL;?>vendors/css/agent/agent-style.css">
-    <link rel="stylesheet" href="<?php echo URL;?>vendors/css/agent/agent-queries.css">
-</head>
-<body>
 
-    <div class="middle-container">
+<?php include 'views/topContainer.php';?>
+    
+<div class="middle-container">
         <h1>I'M THE COLLECTOR</h1>
         <hr>
         
@@ -75,7 +69,4 @@
         </div>
         <hr id="hr-bottom">
     </div>
-    <?php include 'views/bottomContainer.php';?>
-    <script src="<?php echo URL?>vendors/js/nav-bar.js"></script>
-</body>
-</html>
+<?php include 'views/bottomContainer.php';?>

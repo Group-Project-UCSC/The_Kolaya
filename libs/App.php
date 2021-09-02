@@ -41,7 +41,7 @@ class App {
     }
 
     private function _loadController() {
-        if($this->_url[0] == 'user') {
+        if($this->_url[0] == 'user' || $this->_url[0] == 'login' || $this->_url[0] == 'registration') {
             $file = 'controllers/'. $this->_url[0] . '.php';
         }else {
             $file = 'controllers/'. $_SESSION['user_type'].'/'. $this->_url[0] . '.php';
@@ -51,7 +51,7 @@ class App {
             require $file;
 
             $this->_controller = new $this->_url[0];
-            if($this->_url[0] == 'user') {
+            if($this->_url[0] == 'user' || $this->_url[0] == 'login' || $this->_url[0] == 'registration') {
                 $this->_controller->loadModelUser($this->_url[0]);
             }else {
                 $this->_controller->loadModel($_SESSION['user_type'],$this->_url[0]);

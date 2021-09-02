@@ -8,7 +8,6 @@ class Index extends Controller{
     }
 
     function index() {
-        // echo "I'm the controller index";
         $this->view->goHome('user/home');
     }
 }

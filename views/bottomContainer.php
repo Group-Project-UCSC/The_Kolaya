@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="<?php echo URL?>vendors/css/top-bottom-style.css">
-    <link rel="stylesheet" href="<?php echo URL?>vendors/css/top-bottom-query.css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a8f32993e8.js" crossorigin="anonymous"></script>
-</head>
-<body>
     <div class="bottom-container">
         <ul>
             <li>
@@ -29,6 +20,7 @@
             </li>
         </ul>
     </div>
+    <script src="<?php echo URL?>vendors/js/nav-bar.js"></script>
 </body>
 </html>
 
