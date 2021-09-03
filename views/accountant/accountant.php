@@ -69,7 +69,7 @@
                     <a href="" class=""><i class="fas fa-sign-in-alt fa-2x"></i><br><br>Manage Requests</a>
                 </div>
                 <div class="btn payments">
-                    <a href="" class=""><i class="fas fa-hand-holding-usd fa-2x"></i><br><br>Payments</a>
+                    <a href="" class=""><i class="fas fa-hand-holding-usd fa-2x"></i><br><br>Manage Payments</a>
                 </div>
                 <div class="btn tea-price">
                     <a href="" class=""><i class="fa fa-dollar-sign fa-2x"></i><br><br>Set Tea Price</a>
