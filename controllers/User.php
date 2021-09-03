@@ -7,7 +7,7 @@ class User extends Controller {
     }
 
     function index() {
-        $this->view->goHome('user/home');
+        // $this->view->goHome('user/home');
     }
 
     public function registration() {
