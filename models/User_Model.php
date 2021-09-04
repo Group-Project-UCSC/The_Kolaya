@@ -25,7 +25,7 @@ class User_Model extends Model {
         $user_id = $data['user_id'];
         $address = $data['address'];
         $password = $data['password'];
-        $user_type = 'Manager';
+        $user_type = 'Land_Owner';
 
         $query = "INSERT INTO users(user_id, name, address, mobile_number, user_type, password) values('$user_id','$name','$address', '$mobile_number', '$user_type', '$password')";
         

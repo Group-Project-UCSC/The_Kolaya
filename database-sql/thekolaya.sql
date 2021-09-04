@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 02, 2021 at 10:33 AM
+-- Generation Time: Sep 04, 2021 at 12:47 PM
 -- Server version: 10.4.20-MariaDB
 -- PHP Version: 7.3.29
 
@@ -45,7 +45,9 @@ INSERT INTO `users` (`user_id`, `name`, `address`, `mobile_number`, `user_type`,
 ('Acc-000', 'Pasindu Melaka', 'Galle Kollek', 773158043, 'Accountant', '$2y$10$NlN2HI.qpL2mtLtpfQ5Cpe7X0BavLDogo6BRwyjTv1vFM6/vhxY02', '2021-09-02 11:11:42'),
 ('Admin-00', 'Sasindu', 'Math Galle Kollek', 768687025, 'Admin', '$2y$10$GLEs1JIzBvzUTEOYxkPT0uabC4unmvlQkeRO.Hj4DKsxP4kxXthvy', '0000-00-00 00:00:00'),
 ('Agent-000', 'Roneki', 'Mama Matara Kellek', 777816920, 'Agent', '$2y$10$DEoIysExgKU2NSRtgtnnc./gKPhb6QGVsDPCGrxd8LbRf7zu19T2G', '2021-09-02 11:16:00'),
-('Land-000', 'kumud', 'Ariyawanshagama, Welipenna', 769372530, 'Supervisor', '$2y$10$SAALWgCmYwJb8WIBzExR9eh3RsiwsP93SKqGasVLseeiyOb4gZ3C.', '0000-00-00 00:00:00');
+('Land-000', 'Pasindu Lakmal', 'Galle Kollek', 771292250, 'Land_Owner', '$2y$10$q6YimXZjCCz9m3mN9ojKRemuuR8AOgb1ui/Qnq9tHVRfTkUwtqiny', '2021-09-04 16:16:35'),
+('Man-000', 'Sasindu', 'Galle Kollek', 768687026, 'Manager', '$2y$10$YkpCdR2YWXArh8iAMgj01.rsIOeFxIdVEwbwW1I/UFEqqPvhkdg9q', '2021-09-04 13:09:01'),
+('Sup-000', 'Kumud', 'Ariyawanshagama, Welipenna', 769372530, 'Supervisor', '$2y$10$1qvG79l8k71KXfc10IZsnelr/ektLEGHSipQby2GIuzfbraXh3cwC', '2021-09-04 16:17:34');
 
 --
 -- Indexes for dumped tables

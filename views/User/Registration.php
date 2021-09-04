@@ -11,7 +11,7 @@
     <div class="container sign-up-mode">
       <div class="forms-container">
         <div class="signin-signup">
-        <form action="<?php echo URL?>user/user/login" class="sign-in-form" method="POST">
+        <form action="<?php echo URL?>user/login" class="sign-in-form" method="POST">
             <div class="logo">
             <img src="<?php echo URL?>vendors/images/login/logo.png" alt="">
             </div>
