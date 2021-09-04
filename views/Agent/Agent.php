@@ -10,7 +10,7 @@
                 <div class="container top left">
                     <img src="<?php echo URL;?>vendors/images/agent/1.png" alt="">
                     <div class="btn-container top-left">
-                        <button class="btn btn-available"><i class="fas fa-align-justify"></i></i> AVAILABLE LIST</button>
+                        <button class="btn btn-available"><i class="fas fa-align-justify"></i> AVAILABLE LIST</button>
                     </div>
                 </div>
 
