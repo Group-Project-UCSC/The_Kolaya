@@ -7,7 +7,11 @@ class User extends Controller {
     }
 
     function index() {
+<<<<<<< HEAD
         // $this->view->goHome('user/home');
+=======
+        
+>>>>>>> 55a6e998abd85ee1d1af48ba3563353906d20964
     }
 
     public function registration() {
