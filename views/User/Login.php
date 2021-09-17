@@ -11,21 +11,23 @@
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
-          <form action="<?php echo URL?>user/login" class="sign-in-form" method="POST">
+
+          <form action="<?php echo URL?>login" class="sign-in-form" method="POST">
             <div class="logo">
             <img src="<?php echo URL?>vendors/images/login/logo.png" alt="">
             </div>
             <h2 class="title">LOG IN</h2>
             <?php flash('register_success');?>
-            <div class="input-field <?php echo (!empty($data['mobile_number_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['name']; ?>">
-              <i class="fas fa-phone icon <?php echo (!empty($data['mobile_number_err'])) ? 'is-invalid' : ''; ?>"></i>
-              <input class="input<?php echo (!empty($data['mobile_number_err'])) ? '-is-invalid' : ''; ?>" type="tel" placeholder="<?php (!empty($data['mobile_number_err'])) ? print $data['mobile_number_err'] : print 'mobile number*'; ?>" name="mobile_number"/>
+            <div class="input-field <?php echo (!empty($data['contact_number_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['name']; ?>">
+              <i class="fas fa-phone icon <?php echo (!empty($data['contact_number_err'])) ? 'is-invalid' : ''; ?>"></i>
+              <input class="input<?php echo (!empty($data['contact_number_err'])) ? '-is-invalid' : ''; ?>" type="tel" placeholder="<?php (!empty($data['contact_number_err'])) ? print $data['contact_number_err'] : print 'mobile number*'; ?>" name="contact_number"/>
             </div>
 
             <div class="input-field <?php echo (!empty($data['password_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['name']; ?>">
               <i class="fas fa-lock icon <?php echo (!empty($data['password_err'])) ? 'is-invalid' : ''; ?>"></i>
               <input class="input<?php echo (!empty($data['password_err'])) ? '-is-invalid' : ''; ?>"  type="password" placeholder="<?php (!empty($data['password_err'])) ? print $data['password_err'] : print 'password*'; ?>" name="password"/>
             </div>
+
             <input type="submit" value="Login" name="login" class="btn solid" />
           </form>
         </div>

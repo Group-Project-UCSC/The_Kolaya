@@ -39,7 +39,7 @@
 
                     <li class="nav logout">
                         <div>
-                            <a href="<?php echo URL?>user/logout"><i class="fas fa-sign-out-alt"></i> LOGOUT</a>
+                            <a href="<?php echo URL?>login/logout"><i class="fas fa-sign-out-alt"></i> LOGOUT</a>
                         </div>
                     </li>
                 </ul>
@@ -76,7 +76,7 @@
 
                 <li class="mobile logout">
                     <div>
-                        <a href="#"><i class="fas fa-sign-out-alt"></i> LOGOUT</a>
+                        <a href="<?php echo URL?>login/logout"><i class="fas fa-sign-out-alt"></i> LOGOUT</a>
                     </div>
                 </li>
             </ul>
