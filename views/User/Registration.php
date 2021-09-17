@@ -11,14 +11,15 @@
     <div class="container sign-up-mode">
       <div class="forms-container">
         <div class="signin-signup">
-        <form action="<?php echo URL?>user/login" class="sign-in-form" method="POST">
+
+        <form action="<?php echo URL?>login" class="sign-in-form" method="POST">
             <div class="logo">
             <img src="<?php echo URL?>vendors/images/login/logo.png" alt="">
             </div>
             <h2 class="title">LOG IN</h2>
-            <div class="input-field <?php echo (!empty($data['mobile_number_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['name']; ?>">
-              <i class="fas fa-phone icon <?php echo (!empty($data['mobile_number_err'])) ? 'is-invalid' : ''; ?>"></i>
-              <input class="input<?php echo (!empty($data['mobile_number_err'])) ? '-is-invalid' : ''; ?>" type="tel" placeholder="<?php (!empty($data['mobile_number_err'])) ? print $data['mobile_number_err'] : print 'mobile number*'; ?>" name="mobile_number"/>
+            <div class="input-field <?php echo (!empty($data['contact_number_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['name']; ?>">
+              <i class="fas fa-phone icon <?php echo (!empty($data['contact_number_err'])) ? 'is-invalid' : ''; ?>"></i>
+              <input class="input<?php echo (!empty($data['contact_number_err'])) ? '-is-invalid' : ''; ?>" type="tel" placeholder="<?php (!empty($data['contact_number_err'])) ? print $data['contact_number_err'] : print 'mobile number*'; ?>" name="contact_number"/>
             </div>
 
             <div class="input-field <?php echo (!empty($data['password_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['name']; ?>">
@@ -27,7 +28,8 @@
             </div>
             <input type="submit" value="Login" name="login" class="btn solid" />
           </form>
-          <form action="<?php echo URL?>user/registration" class="sign-up-form" method="POST">
+          
+          <form action="<?php echo URL?>registration" class="sign-up-form" method="POST">
             <div class="logo">
             <img src="<?php echo URL?>vendors/images/login/logo.png" alt="">
             </div>
@@ -38,14 +40,14 @@
               <input class="input<?php echo (!empty($data['name_err'])) ? '-is-invalid' : ''; ?>" type="text" placeholder="<?php (!empty($data['name_err'])) ? print $data['name_err'] : print 'name*'; ?>" name="name"/>
             </div>
 
-            <div class="input-field <?php echo (!empty($data['mobile_number_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['name']; ?>">
-              <i class="fas fa-phone icon <?php echo (!empty($data['mobile_number_err'])) ? 'is-invalid' : ''; ?>"></i>
-              <input class="input<?php echo (!empty($data['mobile_number_err'])) ? '-is-invalid' : ''; ?>" type="tel" placeholder="<?php (!empty($data['mobile_number_err'])) ? print $data['mobile_number_err'] : print 'mobile number*'; ?>" name="mobile_number"/>
+            <div class="input-field <?php echo (!empty($data['contact_number_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['name']; ?>">
+              <i class="fas fa-phone icon <?php echo (!empty($data['contact_number_err'])) ? 'is-invalid' : ''; ?>"></i>
+              <input class="input<?php echo (!empty($data['contact_number_err'])) ? '-is-invalid' : ''; ?>" type="tel" placeholder="<?php (!empty($data['contact_number_err'])) ? print $data['contact_number_err'] : print 'mobile number*'; ?>" name="contact_number"/>
             </div>
 
-            <div class="input-field <?php echo (!empty($data['user_id_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['name']; ?>">
-              <i class="far fa-id-card icon <?php echo (!empty($data['user_id_err'])) ? 'is-invalid' : ''; ?>"></i>
-              <input class="input<?php echo (!empty($data['user_id_err'])) ? '-is-invalid' : ''; ?>"  type="text" placeholder="<?php (!empty($data['user_id_err'])) ? print $data['user_id_err'] : print 'user id*'; ?>" name="user_id"/>
+            <div class="input-field <?php echo (!empty($data['emp_id_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['name']; ?>">
+              <i class="far fa-id-card icon <?php echo (!empty($data['emp_id_err'])) ? 'is-invalid' : ''; ?>"></i>
+              <input class="input<?php echo (!empty($data['emp_id_err'])) ? '-is-invalid' : ''; ?>"  type="text" placeholder="<?php (!empty($data['emp_id_err'])) ? print $data['emp_id_err'] : print 'user id*'; ?>" name="emp_id"/>
             </div>
             
             <div class="input-field <?php echo (!empty($data['address_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['name']; ?>">
